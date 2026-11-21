@@ -1,0 +1,58 @@
+{
+  "metricas_test": {
+    "LSTM sin atención (nb1)": {
+      "MAE": 1.712,
+      "RMSE": 2.176,
+      "R2": 0.719
+    },
+    "LSTM con atención (nb1)": {
+      "MAE": 1.712,
+      "RMSE": 2.175,
+      "R2": 0.719
+    },
+    "Transformer": {
+      "MAE": 1.716,
+      "RMSE": 2.196,
+      "R2": 0.714
+    },
+    "Transformer sin codificación posicional": {
+      "MAE": 1.779,
+      "RMSE": 2.285,
+      "R2": 0.69
+    },
+    "Persistencia (base)": {
+      "MAE": 1.953,
+      "RMSE": 2.481,
+      "R2": 0.635
+    }
+  },
+  "epocas": {
+    "Transformer": 36,
+    "Transformer sin PE": 18
+  },
+  "parametros": {
+    "Transformer": 19265
+  },
+  "cabezas": [
+    {
+      "cabeza": 1,
+      "peso_ultimos_5": 0.2039586901664734,
+      "corr_temp": -0.45852679966437065
+    },
+    {
+      "cabeza": 2,
+      "peso_ultimos_5": 0.10845475643873215,
+      "corr_temp": 0.5447040422727143
+    },
+    {
+      "cabeza": 3,
+      "peso_ultimos_5": 0.24845601618289948,
+      "corr_temp": -0.24648662315004946
+    },
+    {
+      "cabeza": 4,
+      "peso_ultimos_5": 0.15030540525913239,
+      "corr_temp": -0.1923152298632123
+    }
+  ]
+}
